@@ -1,0 +1,10 @@
+.card{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 40%;
+    height: 15%;
+    display: inline-block;
+}
+.card-body{
+    margin-left: 150px;
+}
