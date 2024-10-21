@@ -1,0 +1,16 @@
+@for (item of listadoPersonajes; track item.id) {
+<div class="card" style="width: 18rem;">
+    <img [src]="item.image" class="card-img-top">
+    <div class="card-body">
+        <h1 class="card-title">{{item.name}}</h1>
+        <h2>{{item.status}}</h2>
+        <h2> {{item.species}}</h2>
+        <p class="card-text"> Origin:{{item.origin.name}} 
+        </p>
+        <p>Location: {{item.location.name}}</p>
+        <p>{{item.gender}}</p>
+
+    </div>
+</div>
+}
+
