@@ -1,17 +1,4 @@
 @for (item of listadoPersonajes; track item.id) {
-<<<<<<< HEAD
-<div class="card" style="width: 18rem;">
-    <img [src]="item.image" class="card-img-top">
-    <div class="card-body">
-        <h1 class="card-title">{{item.name}}</h1>
-        <h2>{{item.status}}</h2>
-        <h2> {{item.species}}</h2>
-        <p class="card-text"> Origin:{{item.origin.name}} </p>
-        <p>Location: {{item.location.name}}</p>
-        <p>{{item.gender}}</p>
-
-    </div>
-=======
 
 <div class="card mb-3">
     
@@ -24,7 +11,7 @@
         <div class="col-md-8">
             <div class="card-body">
                 <h4 class="card-title">{{item.name}}</h4>
-                <h5>Estado:<i class="bi bi-circle"></i> {{item.status}}</h5>
+                <h5>Estado: {{item.status}}</h5>
                 <h5>Raza: {{item.species}}</h5>
                 <p class="card-text">Origin: {{item.origin.name}}</p>
                 <p>Location: {{item.location.name}}</p>
@@ -34,6 +21,5 @@
 
     </div>
 
->>>>>>> 8ac41710aecba915039f178d9c2847e2d7799253
 </div>
 }

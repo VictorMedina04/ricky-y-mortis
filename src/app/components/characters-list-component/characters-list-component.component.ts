@@ -20,13 +20,13 @@ export class CharactersListComponentComponent implements OnInit {
     });
   }
 
-  selectEstado(estado: string) {
-    if(estado === 'Alive') {
-      color = 'green';
-    }else if(estado === 'Dead') {
-      color = 'red';
-    }else {
-      color = 'gray';
+ selectEstado(estado: string) {
+    if (estado === 'Alive') {
+      let color = 'green';
+    } else if (estado === 'Dead') {
+      let color = 'red';
+    } else {
+      let color = 'gray';
     }
   }
 

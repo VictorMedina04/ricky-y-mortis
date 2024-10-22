@@ -8,9 +8,9 @@ import { Characters, CharactersResponse } from '../interfaces/character';
 })
 export class CharacterServiceService {
 
-  constructor(private http:HttpClient) { }
+  constructor(private http: HttpClient) { }
 
-  getCharacters() : Observable<CharactersResponse>{
+  getCharacters(): Observable<CharactersResponse> {
     return this.http.get<CharactersResponse>('https://rickandmortyapi.com/api/character');
   }
 
